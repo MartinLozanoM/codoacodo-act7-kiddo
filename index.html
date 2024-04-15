@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Kiddo</title>
+  </head>
+  <body>
+    <!--------------- Navbar ----------------->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-kiddo">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./assets/logo.jpg"
+            alt="Logo Kiddo"
+            width="100"
+            height="100"
+            class="logo-kiddo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav me-auto mb-2 mb-lg-0 nav-items-kiddo roboto-bold"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Carta</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="p-3">
+      <section
+        class="d-md-flex flex-md-wrap justify-content-center presentation-kiddo"
+      >
+        <!--------------- Aside izq ----------------->
+        <aside class="p-3 col-md-4 text-md-center">
+          <h1 class="roboto-bold-italic">Tu hamburguesa soñada</h1>
+          <p class="font-monospace roboto-regular">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Consequuntur accusantium atque maiores corrupti facilis officia enim
+            voluptates inventore quam sit nostrum qui officiis ipsa quasi veniam
+            odit, sint in eos. Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Consequuntur accusantium atque maiores corrupti
+            facilis officia enim voluptates inventore quam sit nostrum qui
+            officiis ipsa quasi veniam odit, sint in eos.
+          </p>
+        </aside>
+        <!--------------- Slider ----------------->
+        <div class="col-md-8">
+          <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./assets/hamburguesa8.png"
+                  class="d-block w-100"
+                  alt="Hamburguesas"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/kiddo-poster.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/merch-kiddo.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!--------------- Aside der ----------------->
+        <aside class="p-3 col-md-12 text-md-center">
+          <h2 class="roboto-bold-italic">
+            Si hacemos algo especial, es porque realmente vale la pena probarlo.
+          </h2>
+          <p class="font-monospace roboto-regular">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Consequuntur accusantium atque maiores corrupti facilis officia enim
+            voluptates inventore quam sit nostrum qui officiis ipsa quasi veniam
+            odit, sint in eos. Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Consequuntur accusantium atque maiores corrupti
+            facilis officia enim voluptates inventore quam sit nostrum qui
+            officiis ipsa quasi veniam odit, sint in eos.
+          </p>
+        </aside>
+      </section>
+      <section class="menu-container-kiddo">
+        <div class="text-center">
+          <h2 class="roboto-bold-italic">Te presentamos nuestro menu</h2>
+          <p class="font-monospace roboto-regular">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vel
+            necessitatibus dolorem! Soluta labore delectus eveniet aperiam odit?
+            Beatae rem maxime repudiandae tempore consequatur accusamus quis
+            nihil expedita possimus libero!
+          </p>
+        </div>
+        <div>
+          <img class="menu-kiddo" src="./assets/menu.jpg" alt="Menu" />
+        </div>
+      </section>
+    </main>
+    <footer class="d-md-flex justify-content-evenly">
+      <div class="logo-footer">
+        <img src="./assets/logo.jpg" alt="Logo footer" />
+      </div>
+      <div class="mapa-container text-center">
+        <h3 class="roboto-bold-italic">Estamos en:</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13141.070111561949!2d-58.4315815!3d-34.5720967!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb587a1c0541f%3A0x730040455e6e3bc5!2sKiddo!5e0!3m2!1ses!2sar!4v1713137618303!5m2!1ses!2sar"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="text-center">
+        <h3 class="roboto-bold-italic">Seguinos en:</h3>
+        <div class="p-3 d-flex justify-content-evenly">
+          <a
+            class="social-icons fa-brands fa-instagram d-flex justify-content-center align-items-center"
+            href="https://www.instagram.com/kiddo.arg/?hl=es"
+          ></a>
+          <a
+            class="social-icons fa-brands fa-tiktok d-flex justify-content-center align-items-center"
+            href="https://www.tiktok.com/@kiddo.arg"
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/35882933df.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

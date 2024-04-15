@@ -1,0 +1,90 @@
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.navbar-kiddo {
+  background-color: #045699 !important;
+}
+
+.logo-kiddo {
+  border-radius: 50%;
+}
+
+.nav-items-kiddo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items-kiddo li a {
+  color: #ff7a0d !important;
+}
+
+main {
+  background-color: #045699;
+  color: #f7f7f7;
+}
+
+.presentation-kiddo aside h1,
+h2 {
+  color: #ff7a0d;
+}
+
+.menu-kiddo {
+  width: 100%;
+}
+
+footer {
+  background-color: #ff7a0d;
+  color: #f7f7f7;
+}
+
+.logo-footer img {
+  width: 320px;
+  border-radius: 50%;
+}
+
+.mapa-container iframe {
+  width: 100%;
+}
+
+.social-icons {
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  color: #f7f7f7;
+  margin-right: 10px;
+  background-color: #045699;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.social-icons:hover {
+  color: #ff7a0d;
+}
+
+@media (min-width: 768px) {
+  .logo-footer img {
+    width: 200px;
+  }
+}
