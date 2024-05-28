@@ -36,12 +36,24 @@
   align-items: center;
 }
 
-.nav-items-kiddo li a {
-  color: #ff7a0d !important;
+.nav-items-kiddo .nav-item .nav-link {
+  color: #ff7a0d;
 }
 
-.nav-items-kiddo li a:hover {
-  color: #f7f7f7 !important;
+.nav-items-kiddo .nav-item .nav-link:hover {
+  color: #f7f7f7;
+}
+
+.nav-items-kiddo .login-button-kiddo .nav-link {
+  background-color: #ff7a0d;
+  color: #f7f7f7;
+  border-radius: 5px;
+}
+
+.nav-items-kiddo .login-button-kiddo .nav-link:hover {
+  color: #ff7a0d;
+  background-color: #045699;
+  border: 2px solid #ff7a0d;
 }
 
 main {
