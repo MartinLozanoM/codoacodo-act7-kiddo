@@ -90,7 +90,7 @@
     </nav>
     <main class="login">
       <!--------------- Login Form ----------------->
-        <form action="" class="login__form ocultar">
+        <form action="" class="login__form" id="login-form">
             <h1 class="login__tittle">Iniciar sesion</h1>
             <div class="login__content">
                 <div class="login__box">
@@ -117,10 +117,10 @@
                 <a href="#" class="login__forgot">¿Olvidaste tu contraseña?</a>
             </div>
             <button class="login__button">Iniciar Sesion</button>
-            <p class="login__register">¿No tienes cuenta? <a href="#">Registrate</a></p>
+            <p class="login__register">¿No tienes cuenta? <a href="#" id="register-link">Registrate</a></p>
         </form>
         <!--------------- Register Form ----------------->
-        <form action="" class="register__form">
+        <form action="" class="register__form hide" id="register-form">
           <h1 class="register__tittle">Registrarme</h1>
           <div class="register__content">
             <div class="register__box">
@@ -139,7 +139,7 @@
           </div>
           </div>
           <button class="register__button">Registrarme</button>
-          <p class="register__login">¿Ya tienes una cuenta? <a href="#">Iniciar Sesion</a></p>
+          <p class="register__login">¿Ya tienes una cuenta? <a href="#" id="login-link">Iniciar Sesion</a></p>
         </form>
     </main>
     <footer class="d-md-flex justify-content-evenly">
@@ -180,6 +180,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="./functions/login.js"></script>
+    <script src="./functions/main.js"></script>
   </body>
 </html>

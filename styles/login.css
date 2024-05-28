@@ -163,7 +163,7 @@ a {
     font-size: var(--small-font-size);
 }
 
-.ocultar {
+.hide {
     display: none;
 }
 
