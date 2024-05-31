@@ -179,4 +179,8 @@ a {
     .login__tittle, .register__tittle {
         font-size: 2rem;
     }
+
+    .order__container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

@@ -99,25 +99,6 @@ footer {
   color: #ff7a0d;
 }
 
-/*? Pagina de pedidos  */
-
-.orders-container {
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.orders-container h1 {
-  padding: 20px;
-  margin: 30px 0px;
-}
-
-.orders-container p {
-  font-size: 20px;
-}
-
 /*? Medias pagina home  */
 
 @media (min-width: 768px) {
